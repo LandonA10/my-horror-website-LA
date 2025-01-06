@@ -1,5 +1,6 @@
 import "./styles.css";
 import React from "react";
+import Link from "next/link";
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
       <div className="navBarDiv">
         <NavBar>
           <span className="links">
-            <NavLink linkName={"Characters"} source={""} />
+            <NavLink linkName={"Characters"} source={"./characters"} />
             <NavLink linkName={"Lore"} source={""} />
             <NavLink linkName={"Background"} source={""} />
           </span>
