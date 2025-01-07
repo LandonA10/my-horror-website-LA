@@ -9,21 +9,28 @@
   }
   
   .navBarDiv {
-    background-color: red;
+    /* background-color: red; */
     width: 100vw;
     height: 4em;
     position:fixed;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: left;
   }
   
   .navBar {
     display: flex;
     flex-direction: row;
     height: 100%;
+    margin-left:21em;
+    padding-top:1em;
+    /* border:1px solid white; */
   }
   
   .navLink {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) all 0.3s;
     padding-left: 4em;
+    padding-right:2em;
     color: #e8e8e8;
     text-decoration: none;
     font-size: 16px;
@@ -81,6 +88,7 @@
     font-size: 1.25em;
     border-radius: 16px;
     border: none;
+    margin-top:1em;
   }
   
   button:hover {

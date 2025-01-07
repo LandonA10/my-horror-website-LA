@@ -1,18 +1,21 @@
 import "./styles.css";
 import React from "react";
 import Link from "next/link";
-
+import NavBar from "./navbar";
 export default function App() {
+  const linkNames = ["Characters", "Lore", "Background"];
+  const sources = ["./characters", "", ""];
   return (
     <>
       <div className="navBarDiv">
-        <NavBar>
+        {/* <NavBar>
           <span className="links">
             <NavLink linkName={"Characters"} source={"./characters"} />
             <NavLink linkName={"Lore"} source={""} />
             <NavLink linkName={"Background"} source={""} />
           </span>
-        </NavBar>
+        </NavBar> */}
+        <NavBar linkNames={linkNames} sources={sources} />
       </div>
       <section className="infoSection">
         <div className="writingDiv">
@@ -25,7 +28,7 @@ export default function App() {
               in writing and drawing.
             </p>
           </div>
-          <Button title={"Start Exploring"} href="" />
+          <Button title={"Start Exploring"} link="./characters" />
         </div>
         <div className="picDiv">
           <div className="coverPic"></div>
@@ -35,23 +38,7 @@ export default function App() {
   );
 }
 
-function NavBar({ children }) {
-  return (
-    <>
-      <nav className="navBar">{children}</nav>
-    </>
-  );
-}
 
-function NavLink({ linkName, source }) {
-  return (
-    <>
-      <a className="navLink" href={source}>
-        {linkName}
-      </a>
-    </>
-  );
-}
 
 function Button({ title, link }) {
   return (

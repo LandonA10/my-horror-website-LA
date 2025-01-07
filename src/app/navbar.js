@@ -1,10 +1,12 @@
 import React from "react";
 
-export default function NavBar({ }){
+export default function NavBar({ linkNames, sources}){
     return (
         <>
           <nav className="navBar">
-            <NavLink></NavLink>
+            {linkNames.map((linkName, index) => (
+              <NavLink key={index} linkName={linkName} source={sources[index]} />
+            ))}
           </nav>
         </>
       );
