@@ -1,0 +1,50 @@
+/* Characters webpage */
+
+    .characterWebpage {
+        padding:5em;
+        border:1px solid white;
+    }
+
+    .info {
+      background-color: blueviolet;
+      border:1px solid red;
+      height:100vh;
+    }
+  
+    .regionBack {
+        border:1px solid green;
+        background-color:red;
+    }
+
+    .regionBackParaDiv {
+        width:100%;
+        background-color:green;
+        display:flex;
+        justify-content: center;
+    }
+
+    .regionH1 {
+        font-size: 5em;
+    }
+
+    .regionBackParagraph{
+        font-size: 1.3em;
+    }
+    .backgroundH2 {
+        font-size:3em;
+        margin-top:4px;
+    }
+
+    .characterInfo {
+        border:1px solid red;
+    }
+
+    .characterName {
+        font-size:3em;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .characterNickName {
+        font-size:1.3em;
+    }

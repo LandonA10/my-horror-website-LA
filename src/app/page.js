@@ -8,13 +8,6 @@ export default function App() {
   return (
     <>
       <div className="navBarDiv">
-        {/* <NavBar>
-          <span className="links">
-            <NavLink linkName={"Characters"} source={"./characters"} />
-            <NavLink linkName={"Lore"} source={""} />
-            <NavLink linkName={"Background"} source={""} />
-          </span>
-        </NavBar> */}
         <NavBar linkNames={linkNames} sources={sources} />
       </div>
       <section className="infoSection">
