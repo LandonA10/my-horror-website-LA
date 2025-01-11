@@ -1,5 +1,6 @@
 import React from "react";
 // import "../styles.css";
+import "../navBar.css"
 import NavBar from "../navbar";
 import "./characters.css"
 export default function Characters(){
@@ -7,12 +8,13 @@ export default function Characters(){
     const sources = ["", "", ""];
     return (
         <>
+        <div className="body">
             <div className="navBarDiv">
                 <NavBar linkNames={linkNames} sources={sources} />
             </div>
             <div className="characterWebpage">
-            <span className="region"><h1 className="regionH1">Region Name</h1></span>
             <section className="info">
+                <h1 className="regionH1">Region Name</h1>
                 <div className="regionBack">
                     <h2 className="backgroundH2">Region Background</h2>
                     <div className="regionBackParaDiv">
@@ -43,6 +45,7 @@ export default function Characters(){
                     </div>
                 </section>
             </section>
+            </div>
             </div>
         </>
     )

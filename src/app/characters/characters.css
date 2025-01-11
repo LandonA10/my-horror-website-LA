@@ -1,50 +1,59 @@
 /* Characters webpage */
-
-    .characterWebpage {
-        padding:5em;
-        border:1px solid white;
-    }
-
-    .info {
-      background-color: blueviolet;
-      border:1px solid red;
-      height:100vh;
-    }
+:root {
+    --page-background-color:#121111;
+    --page-text-color:#e8e8e8;
+  }
   
-    .regionBack {
-        border:1px solid green;
-        background-color:red;
-    }
+.body:not(.regionBack){
+    background-color: var(--page-background-color);
+}
+.characterWebpage {
+    padding:5em;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+        
+}
 
-    .regionBackParaDiv {
-        width:100%;
-        background-color:green;
-        display:flex;
-        justify-content: center;
-    }
+.info {
+    height:100vh;
+    background-color: #5A5E63;
+}
+  
+.regionBack {
+    background-color: #5A5E63;       
+}
 
-    .regionH1 {
-        font-size: 5em;
-    }
+.regionBackParaDiv {
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
 
-    .regionBackParagraph{
-        font-size: 1.3em;
-    }
-    .backgroundH2 {
-        font-size:3em;
-        margin-top:4px;
-    }
+.regionH1 {
+    font-size: 5em;
+    background-color: var(--page-background-color);
+}
 
-    .characterInfo {
-        border:1px solid red;
-    }
+.regionBackParagraph{
+    font-size: 1.3em;
+}
+.backgroundH2 {
+    font-size:3em;
+    margin-top:4px;
+}
 
-    .characterName {
-        font-size:3em;
-        font-style: italic;
-        font-weight: bold;
-    }
+/* .characterInfo {
+    border:1px solid red;
+} */
+
+.characterName {
+    font-size:3em;
+    font-style: italic;
+    font-weight: bold;
+}
     
-    .characterNickName {
-        font-size:1.3em;
-    }
+.characterNickName {
+    font-size:1.3em;
+}
+
