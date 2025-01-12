@@ -12,16 +12,16 @@
     display:flex;
     justify-content: center;
     flex-direction: row;
-        
 }
 
 .info {
-    height:100vh;
+    height:100%;
     background-color: #5A5E63;
+    width:60em;
 }
   
 .regionBack {
-    background-color: #5A5E63;       
+    background-color: #5A5E63;     
 }
 
 .regionBackParaDiv {
@@ -34,9 +34,11 @@
     font-size: 5em;
     background-color: var(--page-background-color);
 }
-
+/* all p elements */
 .regionBackParagraph{
     font-size: 1.3em;
+    margin-bottom: 2em;
+    padding:0 16px 0 16px;
 }
 .backgroundH2 {
     font-size:3em;
@@ -47,13 +49,24 @@
     border:1px solid red;
 } */
 
+/* all h2 header */
 .characterName {
     font-size:3em;
     font-style: italic;
     font-weight: bold;
+    margin-left: 16px;
 }
     
 .characterNickName {
     font-size:1.3em;
+    margin-bottom:0.5em;
+    margin-left: 16px;
+    font-style: italic;
 }
 
+.name {
+    color:rgb(134, 13, 13);
+}
+/* .storyH3 {
+    margin-top: 0.5em;
+} */
