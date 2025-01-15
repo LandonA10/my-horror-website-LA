@@ -4,8 +4,8 @@ import React from "react";
 import Link from "next/link";
 import NavBar from "./navbar";
 export default function App() {
-  const linkNames = ["Characters", "Lore", "Background"];
-  const sources = ["./characters", "", ""];
+  const linkNames = ["Characters", "Regions", "Background"];
+  const sources = ["./characters", "./regions", ""];
   return (
     <>
       <div className="navBarDiv">

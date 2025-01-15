@@ -1,9 +1,9 @@
-:root {
-  --page-background-color:#121111;
-  --page-text-color:#e8e8e8;
-}
+  :root {
+    --page-background-color:#121111;
+    --page-text-color:#e8e8e8;
+  }
 
-* {
+  * {
     font-family: "Inter", sans-serif;
     background-color: var(--page-background-color);
   }
@@ -13,33 +13,6 @@
     text-align: center;
   }
   
-  /* .navBarDiv {
-   
-    width: 100vw;
-    height: 4em;
-    position:fixed;
-    
-    display: flex;
-    justify-content: left;
-  }
-  
-  .navBar {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    margin-left:21em;
-    padding-top:1em;
-    
-  }
-  
-  .navLink {
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) all 0.3s;
-    padding-left: 4em;
-    padding-right:2em;
-    color: #e8e8e8;
-    text-decoration: none;
-    font-size: 16px;
-  } */
   body {
     margin: 0;
   }

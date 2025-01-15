@@ -1,0 +1,37 @@
+    :root {
+        --page-background-color:#121111;
+        --page-text-color:#e8e8e8;
+    }
+
+    *{
+        background-color: var(--page-background-color);
+    }
+
+    .webpageDiv {
+        border:1px solid red;
+        padding-top:4em;
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .headingDiv {
+        border:1px solid blue;
+        margin-top:6em;
+    }
+
+    .header {
+        font-size: 5em;
+        text-align: center;
+    }
+
+    .description {
+        font-size:3em;
+        padding-top:2em;
+        text-align: center;
+    }
+    .regionsSect {
+        border: 1px solid green;
+        margin-top:5em;
+    }

@@ -1,11 +1,10 @@
 import React from "react";
-// import "../styles.css";
 import "../navBar.css"
 import NavBar from "../navbar";
 import "./characters.css"
 export default function Characters(){
-    const linkNames = ["Regions", "Lore", "Background"];
-    const sources = ["", "", ""];
+    const linkNames = ["Characters", "Regions", "Background"];
+    const sources = ["./characters", "./regions", ""];
     return (
         <>
         <div className="body">
@@ -18,7 +17,7 @@ export default function Characters(){
                 <div className="regionBack">
                     <h2 className="backgroundH2 characterName">Region Background</h2>
                     <div className="regionBackParaDiv">
-                    <p className="regionBackParagraph">Welcome too the Land of Mourn a place to many ancient monsters called Horrors. You will see that these Horrors feast off the emotions of humans, making them extremely strong, and hard to combat against. Surviving against these creatures is extremely <b><i>difficult</i></b> to do, and rarely does any person make it out alive after encountering one. Besides the Horrors, The Land of Mourn is home to many large forests, mountains, and lakes. Out of the 4 main regions, it is the largest and most populated, containing 5 major cities and home to about 2 million people.</p>
+                    <p className="regionBackParagraph">Welcome too the Land of Mour a place to many ancient monsters called Horrors. You will see that these Horrors feast off the emotions of humans, making them extremely strong, and hard to combat against. Surviving against these creatures is extremely <b><i>difficult</i></b> to do, and rarely does any person make it out alive after encountering one. Besides the Horrors, The Land of Mourn is home to many large forests, mountains, and lakes. Out of the 4 main regions, it is the largest and most populated, containing 5 major cities and home to about 2 million people.</p>
                     </div>
                 </div>
 
