@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import NavBar from "./navbar";
 export default function App() {
+  // Laptop test
   const linkNames = ["Characters", "Regions", "Background"];
   const sources = ["./characters", "./regions", ""];
   return (
@@ -16,11 +17,12 @@ export default function App() {
           <h1 className="welcomeH1">Welcome</h1>
           <div className="prghDiv">
             <p>
-              Welcome to my website, this website is a personal project that I
+              Welcome to my cooool coool website, this website is a personal project that I
               will be trying to consistently update. This project will be
               testing my web development skills as well as my creativity skills
               in writing and drawing.
             </p>
+            <p>HI</p>
           </div>
           <Button title={"Start Exploring"} link="./characters" />
         </div>
