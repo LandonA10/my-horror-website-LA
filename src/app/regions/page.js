@@ -18,11 +18,15 @@ export default function regions(){
                     {/* icon */}
                     <h2 className="description">Explore the regions</h2>
                 </div>
-                <section className="regionsSect">
+                <section className="regionSect">
+                    <div className="regionContainerTop">
                     <RegionSquare name={"The Land of Mour"} />
                     <RegionSquare name={"The Fallen Isles"} />
+                    </div>
+                    <div className="regionContainerBottom">
                     <RegionSquare name={"The Howling Highlands"} />
                     <RegionSquare name={"The Shadowed Expanse"} />
+                    </div>
                 </section>
                 </div>
             </div>
