@@ -13,11 +13,16 @@ export default function Characters(){
             </div>
             <div className="characterWebpage">
             <section className="info">
-                <h1 className="regionH1">Land of Mourn</h1>
+                <h1 className="regionH1">Land of Mour</h1>
                 <div className="regionBack">
                     <h2 className="backgroundH2 characterName">Region Background</h2>
                     <div className="regionBackParaDiv">
-                    <p className="regionBackParagraph">Welcome too the Land of Mour a place to many ancient monsters called Horrors. You will see that these Horrors feast off the emotions of humans, making them extremely strong, and hard to combat against. Surviving against these creatures is extremely <b><i>difficult</i></b> to do, and rarely does any person make it out alive after encountering one. Besides the Horrors, The Land of Mourn is home to many large forests, mountains, and lakes. Out of the 4 main regions, it is the largest and most populated, containing 5 major cities and home to about 2 million people.</p>
+                    <p className="regionBackParagraph">Welcome too the Land of Mour a place to many ancient monsters called Horrors. 
+                        You will see that these Horrors feast off the emotions of humans, making them extremely strong, and hard to 
+                        combat against. Surviving against these creatures is extremely <b><i>difficult</i></b> to do, and rarely does any 
+                        person make it out alive after encountering one. Besides the Horrors, The Land of Mourn is home to many large forests, 
+                        mountains, and lakes. Out of the 4 main regions, it is the largest and most populated, containing 5 major cities and home 
+                        to about 2 million people. <RegionLink regionLink={"./regions/landOfMour"} regionName={"Learn more here..."} /></p>
                     </div>
                 </div>
 
@@ -46,6 +51,15 @@ export default function Characters(){
             </section>
             </div>
             </div>
+        </>
+    )
+}
+
+function RegionLink({regionName, regionLink}){
+
+    return (
+        <>
+            <a className="regionLink" href = {regionLink}>{regionName}</a>
         </>
     )
 }

@@ -2,10 +2,10 @@ import React from "react";
 import "../navBar.css"
 import NavBar from "../navbar";
 import "./regions.css";
-export default function regions(){
+export default function Regions(){
 
     const linkNames = ["Characters", "Regions", "Background"];
-    const sources = ["./characters", "", ""];
+    const sources = ["./characters", "./regions", ""];
     return (
         <>
             <div className="body">
@@ -20,7 +20,7 @@ export default function regions(){
                 </div>
                 <section className="regionSect">
                     <div className="regionContainerTop">
-                    <RegionSquare name={"The Land of Mour"} />
+                    <RegionSquare name={"The Land of Mour"} link={"./regions/landOfMour"}/>
                     <RegionSquare name={"The Fallen Isles"} />
                     </div>
                     <div className="regionContainerBottom">
@@ -34,11 +34,11 @@ export default function regions(){
     )
 }
 
-function RegionSquare({name}){
+function RegionSquare({name, link}){
     return (
         <>
             <div className="regionDiv">
-                <h3 className="regionName">{name}</h3>
+                <a className="regionLink" href={link}><h3 className="regionName">{name}</h3></a>
             </div>
         </>
     )

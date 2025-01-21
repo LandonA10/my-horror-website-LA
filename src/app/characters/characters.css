@@ -67,6 +67,12 @@
 .name {
     color:#5c0f0f;;
 }
+
+.regionLink{
+    color:rgb(7, 7, 85);
+    text-decoration: underline;
+    font-size: 1em;
+}
 /* .storyH3 {
     margin-top: 0.5em;
 } */

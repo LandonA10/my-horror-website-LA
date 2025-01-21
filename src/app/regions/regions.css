@@ -73,3 +73,7 @@
         width: 5em;
         margin:auto;
     }
+
+    .regionLink{
+        text-decoration: underline;
+    }
