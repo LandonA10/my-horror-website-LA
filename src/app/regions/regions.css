@@ -8,7 +8,6 @@
     } */
 
     .webpageDiv {
-        border:1px solid red;
         padding-top:4em;
         height:100vh;
         display:flex;
@@ -17,40 +16,60 @@
     }
 
     .headingDiv {
-        border:1px solid blue;
         margin-top:6em;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .header {
         font-size: 5em;
         text-align: center;
+        width:15em;
+        margin-bottom: 1em;
     }
 
     .description {
         font-size:3em;
-        padding-top:2em;
         text-align: center;
+        margin-top:1em;
+        margin-bottom: 1em;
     }
 
     .regionSect {
         display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
     }
 
     .regionDiv {
         width:10em;
-        height:10em;
+        height:15em;
         background-color: #e8e8e8;
         color:#121111;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left:3em;
+        margin-right: 3em;
     }
 
     .regionContainerTop {
-        height:100%;
-        border: 1px solid red;
         display: flex;
         flex-direction: row;
+        margin-bottom: 3em;
+        margin-top: 2em;
+    }
+
+    .regionContainerBottom{
+        display: flex;
+        
+    }
+
+    .regionIcon {
+        height:5em;
+        width: 5em;
+        margin:auto;
     }

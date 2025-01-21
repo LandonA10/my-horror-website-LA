@@ -15,7 +15,7 @@ export default function regions(){
                 <div className="webpageDiv">
                 <div className="headingDiv ">
                     <h1 className="header">The Four Great Regions of Mytharelm</h1>
-                    {/* icon */}
+                    <img src="favicon.ico" alt="icon" className="regionIcon"/>
                     <h2 className="description">Explore the regions</h2>
                 </div>
                 <section className="regionSect">
