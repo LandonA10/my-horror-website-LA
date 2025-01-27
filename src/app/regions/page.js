@@ -1,5 +1,4 @@
 import React from "react";
-import "../navBar.css"
 import NavBar from "../navbar";
 import "./regions.css";
 export default function Regions(){

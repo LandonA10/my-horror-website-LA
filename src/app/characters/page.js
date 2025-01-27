@@ -1,5 +1,4 @@
 import React from "react";
-import "../navBar.css"
 import NavBar from "../navbar";
 import "./characters.css"
 export default function Characters(){
