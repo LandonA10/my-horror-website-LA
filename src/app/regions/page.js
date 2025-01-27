@@ -8,9 +8,8 @@ export default function Regions(){
     return (
         <>
             <div className="body">
-                <div className="navBarDiv">
-                    <NavBar linkNames={linkNames} sources={sources} />
-                </div>
+                
+                <NavBar linkNames={linkNames} sources={sources} />
                 <div className="webpageDiv">
                 <div className="headingDiv ">
                     <h1 className="header">The Four Great Regions of Mytharelm</h1>

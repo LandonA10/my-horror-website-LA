@@ -9,9 +9,8 @@ export default function App() {
   const sources = ["./characters", "./regions", ""];
   return (
     <>
-      <div className="navBarDiv">
-        <NavBar linkNames={linkNames} sources={sources} />
-      </div>
+      
+     <NavBar linkNames={linkNames} sources={sources} />
       <section className="infoSection">
         <div className="writingDiv">
           <h1 className="welcomeH1">Welcome</h1>
