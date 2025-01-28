@@ -9,7 +9,7 @@ export default function Regions(){
         <>
             <div className="body">
                 <div className="navBarDiv">
-                    <NavBar linkNames={linkNames} sources={sources} />
+                    <NavBar linkNames={linkNames} sources={sources} type={1}/>
                 </div>
                 <div className="webpageDiv">
                 <div className="headingDiv ">

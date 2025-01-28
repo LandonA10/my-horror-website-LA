@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "@/app/navbar";
+
 export default function LandOfMour(){
 
     const linkNames = ["Characters", "Regions", "Background"];
