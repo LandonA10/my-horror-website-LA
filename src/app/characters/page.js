@@ -7,9 +7,7 @@ export default function Characters(){
     return (
         <>
         <div className="body">
-            <div className="navBarDiv">
-                <NavBar linkNames={linkNames} sources={sources} />
-            </div>
+            <NavBar linkNames={linkNames} sources={sources} />
             <div className="characterWebpage">
             <section className="info">
                 <h1 className="regionH1">Land of Mour</h1>
