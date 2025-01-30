@@ -8,12 +8,11 @@ export default function Regions(){
     return (
         <>
             <div className="body">
-                <div className="navBarDiv">
-                    <NavBar linkNames={linkNames} sources={sources} type={1}/>
-                </div>
+                
+                <NavBar linkNames={linkNames} sources={sources}/>
                 <div className="webpageDiv">
                 <div className="headingDiv ">
-                    <h1 className="header">The Four Great Regions of Mytharelm</h1>
+                    <h1 className="headerH1">The Four Great Regions of Mytharelm</h1>
                     <img src="favicon.ico" alt="icon" className="regionIcon"/>
                     <h2 className="description">Explore the regions</h2>
                 </div>

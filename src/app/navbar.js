@@ -7,7 +7,7 @@ export default function NavBar({ linkNames, sources}){
       <>
       <div className="navBarDiv" >
       <span className="iconSpan">
-        <img src="favicon.ico" className="icon" alt="webIcon"/>
+        <img src="/favicon.ico" className="icon" alt="webIcon"/>
       </span>
         <nav className="navBar">
           {linkNames.map((linkName, index) => (
