@@ -19,11 +19,11 @@ export default function Regions(){
                 <section className="regionSect">
                     <div className="regionContainerTop">
                     <RegionSquare name={"The Land of Mour"} link={"./regions/landOfMour"}/>
-                    <RegionSquare name={"The Fallen Isles"} />
+                    <RegionSquare name={"The Fallen Isles"} link={"./regions/theFallenIsles"}/>
                     </div>
                     <div className="regionContainerBottom">
-                    <RegionSquare name={"The Howling Highlands"} />
-                    <RegionSquare name={"The Shadowed Expanse"} />
+                    <RegionSquare name={"The Howling Highlands"} link={"./regions/theHowlingHighlands"}/>
+                    <RegionSquare name={"The Shadowed Expanse"} link={"./regions/theShadowedExpanse"}/>
                     </div>
                 </section>
                 </div>

@@ -1,7 +1,7 @@
 :root {
     --page-background-color:#121111;
     --page-text-color:#e8e8e8;
-  }
+}
 
 .headingImageDiv {
     padding-top:10em;
@@ -39,4 +39,10 @@
 .infoDiv{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 5em;
+}
+
+.imgPara{
+    width:40em;
 }
