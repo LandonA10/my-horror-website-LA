@@ -46,7 +46,7 @@
 }
 
 .characterInfo {
-    background-image: url("/tester.jpg");
+    background-image: url("/adonFinal.jpg");
     height:7em;
     /* height:7em; */
 }
@@ -75,6 +75,17 @@
     text-decoration: underline;
     font-size: 1em;
 }
-/* .storyH3 {
-    margin-top: 0.5em;
-} */
+
+.charImageFig{
+    height:25em;
+    background-color: white;
+    width: 18em;
+}
+
+.charImagesDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5em;
+    margin-bottom: 4em;
+}
