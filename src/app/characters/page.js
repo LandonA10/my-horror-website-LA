@@ -1,7 +1,7 @@
+
 import React from "react";
 import NavBar from "../navbar";
 import "./characters.css";
-import CharacterGame from "./characterGame";
 export default function Characters(){
     const linkNames = ["Characters", "Regions", "Background"];
     const sources = ["./characters", "./regions", ""];
@@ -53,8 +53,6 @@ export default function Characters(){
 
                 <section className="gameSect">
                     <div className="gameDiv">
-                    <CharacterGame />
-
                     </div>
                     
                 </section>
