@@ -1,8 +1,13 @@
 "use client";
-import dynamic from "next/dynamic";
 
-const App = dynamic(() => import("../game/Game"), {ssr:false});
-
+import { Stage } from "@pixi/react";
 export default function PixiClient(){
-    return (<App />);
+
+    return (
+        <>
+            <Stage width={800} height={600} options={{background: 0x1099bb }}>
+
+            </Stage>
+        </>
+    )
 }
