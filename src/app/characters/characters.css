@@ -3,7 +3,9 @@
     --page-background-color:#121111;
     --page-text-color:#e8e8e8;
   }
-  
+* {
+    margin: 0;
+} 
 .body:not(.regionBack){
     background-color: var(--page-background-color);
 }
@@ -33,11 +35,15 @@
 .regionH1 {
     font-size: 5em;
     background-color: var(--page-background-color);
+    color:var(--page-text-color);
+    padding:16px 0 16px 0;
+    
 }
 /* all p elements */
 .regionBackParagraph{
     font-size: 1.3em;
     margin-bottom: 2em;
+    margin-top:1em;
     padding:0 16px 0 16px;
 }
 .backgroundH2 {
@@ -62,8 +68,9 @@
 .characterNickName {
     font-size:1.3em;
     margin-bottom:0.5em;
-    margin-left: 16px;
+    margin-left: 28px;
     font-style: italic;
+    color:var(--page-text-color);
 }
 
 .name {

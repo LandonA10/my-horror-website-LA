@@ -3,9 +3,10 @@
         --page-text-color:#e8e8e8;
     }
 
-    /* *{
-        background-color: var(--page-background-color);
-    } */
+    *{
+        margin:0;
+        
+    }
     .body {
         background-color: var(--page-background-color);
         height:68em;
@@ -30,6 +31,8 @@
         text-align: center;
         width:15em;
         margin-bottom: 1em;
+        color:var(--page-text-color);
+        
     }
 
     .description {
@@ -37,6 +40,7 @@
         text-align: center;
         margin-top:1em;
         margin-bottom: 1em;
+        color:var(--page-text-color);
     }
 
     .regionSect {

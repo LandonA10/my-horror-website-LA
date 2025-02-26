@@ -3,6 +3,9 @@
     --page-text-color:#e8e8e8;
 }
 
+*{
+    margin:0;
+}
 .headingImageDiv {
     padding-top:10em;
     display: flex;
