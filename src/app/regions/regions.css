@@ -10,6 +10,7 @@
     .body {
         background-color: var(--page-background-color);
         height:68em;
+        /* width: 100vw; */
     }
     .webpageDiv {
         padding-top:4em;
@@ -31,8 +32,7 @@
         text-align: center;
         width:15em;
         margin-bottom: 1em;
-        color:var(--page-text-color);
-        
+        color:var(--page-text-color);        
     }
 
     .description {
@@ -54,7 +54,6 @@
         width:10em;
         height:15em;
         background-color: #e8e8e8;
-        color:#121111;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -63,6 +62,11 @@
         margin-right: 3em;
     }
 
+    .regionImgPreview{
+        width:10em;
+        height:15em;
+        position:absolute;
+    }
     .regionContainerTop {
         display: flex;
         flex-direction: row;
@@ -83,6 +87,10 @@
 
     .regionLink{
         text-decoration: underline;
+        z-index: 2;
+        color:#ffffff;
+        font-weight: 2;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
 
     

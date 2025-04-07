@@ -6,46 +6,10 @@
 *{
     margin:0;
 }
-.headingImageDiv {
-    padding-top:10em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-}
-
-.regionHeaderH1{
-    font-size:5em;
-    padding-bottom: 1em; 
-}
 
 .webPageDiv{
     display: flex;
     flex-direction: column;
-    
+    padding-top: 5em;
 }
 
-.imgDiv {
-    background-color: red;
-    height:25em;
-    width:25em;
-    margin-top: 5em;
-    margin-left:15em;
-
-}
-
-.infoSect {
-    background-color: green;
-    height:100%;
-}
-
-.infoDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5em;
-}
-
-.imgPara{
-    width:40em;
-}

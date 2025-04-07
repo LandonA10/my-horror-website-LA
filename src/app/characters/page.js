@@ -46,6 +46,7 @@ export default function Characters(){
                         </div>
                         <div className="charImagesDiv"> 
                             <ImageFigure name={"The Adon"} src={"/adonImg.jpg"} />
+                            <ImageFigure name={"Adon Hunting its Prey"} src={"/adonHumanImg.jpg"} />
                             {/* <ImageFigure name={"The Adon"} src={""} /> */}
                         </div>
                     </div>

@@ -18,12 +18,12 @@ export default function Regions(){
                 </div>
                 <section className="regionSect">
                     <div className="regionContainerTop">
-                    <RegionSquare name={"The Land of Mour"} link={"./regions/landOfMour"}/>
-                    <RegionSquare name={"The Fallen Isles"} link={"./regions/theFallenIsles"}/>
+                    <RegionSquare name={"The Land of Mour"} link={"./regions/landOfMour"} src={"../landOfMourPreviewImg.jpg"}/>
+                    <RegionSquare name={"The Fallen Isles"} link={"./regions/theFallenIsles"} src={"../fallenIslesPreviewImg.jpg"}/>
                     </div>
                     <div className="regionContainerBottom">
-                    <RegionSquare name={"The Howling Highlands"} link={"./regions/theHowlingHighlands"}/>
-                    <RegionSquare name={"The Shadowed Expanse"} link={"./regions/theShadowedExpanse"}/>
+                    <RegionSquare name={"The Howling Highlands"} link={"./regions/theHowlingHighlands"} src={"../howlingHighlandsPreviewImg.jpg"}/>
+                    <RegionSquare name={"The Shadowed Expanse"} link={"./regions/theShadowedExpanse"}src={"../shadowedExpansePreviewImg.jpg"} />
                     </div>
                 </section>
                 </div>
@@ -32,10 +32,11 @@ export default function Regions(){
     )
 }
 
-function RegionSquare({name, link}){
+function RegionSquare({name, link,src}){
     return (
         <>
             <div className="regionDiv">
+                <img src={src} class= "regionImgPreview"></img>
                 <a className="regionLink" href={link}><h3 className="regionName">{name}</h3></a>
             </div>
         </>
