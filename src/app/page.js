@@ -16,7 +16,7 @@ export default function App() {
           <h1 className="welcomeH1">Welcome</h1>
           <div className="prghDiv">
             <p>
-              Welcome to my website, this website is a personal project that I
+              to my website, this website is a personal project that I
               will be trying to consistently update. This project will be
               testing my web development skills as well as my creativity skills
               in writing and drawing.

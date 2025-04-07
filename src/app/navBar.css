@@ -9,6 +9,7 @@
     position:fixed;
     display: flex;
     justify-content: left;
+    padding-top: 1em;
   }
   
   .navBar {
