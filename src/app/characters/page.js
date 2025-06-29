@@ -12,7 +12,7 @@ export default function Characters(){
             <div className="characterWebpage">
             <section className="info">
                 <h1 className="regionH1">Land of Mour</h1>
-                <div className="regionBack">
+                {/* <div className="regionBack">
                     <h2 className="backgroundH2 characterName">Region Background</h2>
                     <div className="regionBackParaDiv">
                     <p className="regionBackParagraph">Welcome too the Land of Mour a place to many ancient monsters called Horrors. 
@@ -22,14 +22,14 @@ export default function Characters(){
                         mountains, and lakes. Out of the 4 main regions, it is the largest and most populated, containing 5 major cities and home 
                         to about 2 million people. <RegionLink regionLink={"./regions/landOfMour"} regionName={"Learn more here..."} /></p>
                     </div>
-                </div>
+                </div> */}
 
                 <section className="characterSect">
-                    <h1 className="regionH1">Characters</h1>
+                    <h2 className="charactersH2">Characters</h2>
                     <div className="character">
                         {/* will have image of character in background */}
                         <div className="characterInfo"> 
-                            <h3 className="characterName name">The Adon</h3>
+                            <h3 className="name">The Adon</h3>
                             <h4 className="characterNickName">The First Fear </h4>
                         </div>
                         <div className="characterStory">
@@ -54,15 +54,6 @@ export default function Characters(){
             </section>
             </div>
             </div>
-        </>
-    )
-}
-
-function RegionLink({regionName, regionLink}){
-
-    return (
-        <>
-            <a className="regionLink" href = {regionLink}>{regionName}</a>
         </>
     )
 }

@@ -2,14 +2,97 @@
     --page-background-color:#121111;
     --page-text-color:#e8e8e8;
 }
-
+/* fix nav bar!! */
 *{
     margin:0;
+    color: var(--page-text-color);
 }
 
 .webPageDiv{
     display: flex;
     flex-direction: column;
     padding-top: 5em;
+    justify-content: center;
+    background-color: var(--page-background-color);
 }
 
+
+
+ .infoSection {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:10em;
+    margin-right:10em;
+    margin-bottom:5em;
+ }
+
+ .infoSection:nth-of-type(1) {
+    margin-left:0;
+    margin-right:0;
+    background-color: blue;
+    height:25em;
+    width:95em;
+ }
+
+ .sectionContentDiv{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .backgroundPara{
+    margin-top:2em;
+    width:25em;
+ }
+ 
+ .backgroundImg{
+    width:30.625em;
+    height:24.25em;
+    margin-right: 5em;
+ }
+
+ .backgroundH2{
+    margin-bottom:1em;
+}
+
+h1 {
+    font-size: 5em;
+    margin:auto;
+    position:absolute;
+   }
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    font-size:1.3em;
+    white-space: pre-line;
+}
+
+.img {
+    background-color: var(--page-text-color);
+}
+
+.geoImgDiv{
+    display:flex;
+    flex-direction: row;
+    gap: 6em;
+    margin-bottom: 2em;
+}
+
+.geoImg{
+
+    width: 14.5em;
+    height: 24.25em;
+}
+
+.expImg{
+    width:60em;
+    height:24em;
+    margin-bottom: 2em;
+    margin-right:auto;
+    margin-left:auto;
+}

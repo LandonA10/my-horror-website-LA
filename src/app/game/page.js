@@ -1,15 +1,15 @@
 
-import dynamic from "next/dynamic";
+"use client"
 
-const PixiClient = dynamic(() => import("./PixiClient"), {ssr:false});
+import { Stage } from "@pixi/react";
+import PixiBattle from "./PixiBattle";
 
-export default function Game(){
+export default function GamePage() {
   return (
-    <>
-      <h1>Hello</h1>
-     <PixiClient />
-    </>
-  )
+    <div>
+      <h1>My Gameeee</h1>
+      <PixiBattle />
+    </div>
+  );
 }
 
-//download pixi and react bundles
